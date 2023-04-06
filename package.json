@@ -4,6 +4,7 @@
   "description": "our first nodejs project",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlbertoPizzi/FSWDCourse/issues"
   },
-  "homepage": "https://github.com/AlbertoPizzi/FSWDCourse#readme"
+  "homepage": "https://github.com/AlbertoPizzi/FSWDCourse#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
